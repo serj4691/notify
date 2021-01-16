@@ -1,0 +1,20 @@
+.btn {
+    display: inline-block;
+    padding: 1em 7em;
+    line-height: 1;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 2em;
+
+    &.btnDefault {
+        color: #ffffff;
+        border: 1px solid #333333;
+        background-color: #333333;
+    }
+
+    &.btnPrimary {
+        color: #ffffff;
+        border: 1px solid #494ce8;
+        background-color: #494ce8;   
+    }
+}
